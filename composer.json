@@ -1,0 +1,17 @@
+{
+    "repositories": [
+        {
+            "type": "pear",
+            "url": "http://pear.phpunit.de"
+        },
+        {
+            "type": "pear",
+            "url": "http://pear.symfony-project.com"
+        }
+    ],
+    "require":{
+        "robmorgan/phinx":"*",
+        "bcosca/fatfree": "3.3.0"
+    },
+    "require-dev": {}
+}

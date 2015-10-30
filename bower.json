@@ -1,0 +1,28 @@
+{
+  "name": "webapp-php-skeleton",
+  "authors": [
+    "xzhang@thinknet.com"
+  ],
+  "description": "this is a skeleton for webapp project initial setup.",
+  "main": "",
+  "dependencies": {
+    "get-size": "~1.2.2",
+    "eventEmitter": "~4.2.11",
+    "bootstrap": "~3.3.5",
+    "knockout": "knockoutjs#~3.3.0",
+    "underscore": "~1.8.3",
+    "knockout-validation": "~2.0.3"
+  },
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

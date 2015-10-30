@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>PHP WebAPP Skeleton</title>
+    <script type="text/javascript" src="../../bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../bower_components/knockout/dist/knockout.js"></script>
+    <script type="text/javascript" src="../../bower_components/knockout-validation/dist/knockout.validation.min.js"></script>
+    <script type="text/javascript" src="../../bower_components/underscore/underscore.js"></script>
+
+    <link rel="stylesheet" href="../../bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../../app/assets/css/main.css"/>
+  </head>
+
+  <body>
+    <include href="partials/_nav_bar.htm"/>
+    <section class="content">
+      <main class="main">
+        <include href="{{ @content }}"/>
+      </main>
+    </section>
+  </body>
+</html>
