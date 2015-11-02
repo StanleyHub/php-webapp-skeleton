@@ -11,7 +11,8 @@
     ],
     "require":{
         "robmorgan/phinx":"*",
-        "bcosca/fatfree": "3.3.0"
+        "bcosca/fatfree": "3.3.0",
+        "firebase/php-jwt": "^3.0"
     },
     "require-dev": {}
 }
